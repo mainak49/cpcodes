@@ -1,5 +1,5 @@
 /*
-For a given N, find the number of ways to choose an integer x from the range [0,2N−1] such that x⊕(x+1)=(x+2)⊕(x+3), where ⊕ denotes the bitwise XOR operator.
+For a given N, find the number of ways to choose an integer x from the range [0,2^N−1] such that x⊕(x+1)=(x+2)⊕(x+3), where ⊕ denotes the bitwise XOR operator.
 Since the number of valid x can be large, output it modulo 109+7.
 
 Input
@@ -12,6 +12,7 @@ For each test case, output in a single line the answer to the problem modulo 109
 Constraints
 1≤T≤105
 1≤N≤105
+
 Subtasks
 Subtask #1 (100 points): Original Constraints
 
